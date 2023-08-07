@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../mlproject_airbnb/mlproject_airbnb"
+		},
+		{
+			"path": "../../Text-Summarization-NLP-Project-main"
+		},
+		{
+			"path": "../../../Upgrad Case Study/CaseStudy/documentclassification"
+		},
+		{
+			"path": "../../Python-master/Python-master"
+		},
+		{
+			"path": "../../DeepLearning.AI-Introduction-to-Machine-Learning-in-Production-main"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

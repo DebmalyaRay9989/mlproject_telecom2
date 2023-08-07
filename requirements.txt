@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+wheel
+dill
+flask
+flask_sqlalchemy
+klib
+scipy
+gunicorn
+-e .
