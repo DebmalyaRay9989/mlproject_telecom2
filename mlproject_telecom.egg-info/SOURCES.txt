@@ -1,0 +1,36 @@
+.gitignore
+README.md
+airbnb.code-workspace
+app copy.py
+app.py
+requirements.txt
+setup.py
+.ebextensions/python.config
+.github/workflows/main_studentssperformance3.yml
+.vscode/launch.json
+artifacts/data.csv
+artifacts/model.pkl
+artifacts/preprocessor.pkl
+artifacts/test.csv
+artifacts/train.csv
+mlproject_telecom.egg-info/PKG-INFO
+mlproject_telecom.egg-info/SOURCES.txt
+mlproject_telecom.egg-info/dependency_links.txt
+mlproject_telecom.egg-info/requires.txt
+mlproject_telecom.egg-info/top_level.txt
+src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/__init__.py
+src/components/data_ingestion.py
+src/components/data_transformation.py
+src/components/model_trainer.py
+src/pipeline/__init__.py
+src/pipeline/predict_pipeline.py
+src/pipeline/train_pipeline.py
+static/css/main.css
+static/images/form.png
+static/images/prediction.png
+templates/New Text Document.txt
+templates/home.html
