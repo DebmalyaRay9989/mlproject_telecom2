@@ -1,0 +1,36 @@
+[ 2023-08-07 22:41:25,046 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-07 22:41:25,062 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-07 22:43:06,572 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:06] "GET / HTTP/1.1" 200 -
+[ 2023-08-07 22:43:06,618 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:06] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:43:08,452 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:43:09,191 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:09] "GET /register HTTP/1.1" 200 -
+[ 2023-08-07 22:43:09,410 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:09] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:43:17,819 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+[ 2023-08-07 22:43:17,863 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:17] "GET /login HTTP/1.1" 200 -
+[ 2023-08-07 22:43:17,914 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:17] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:43:23,068 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2023-08-07 22:43:23,234 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:23] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-07 22:43:23,302 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:23] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:43:38,779 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:38] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-07 22:43:38,833 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:38] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:43:41,007 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:41] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-07 22:43:41,048 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:43:41] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:44:12,221 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:44:12] "GET / HTTP/1.1" 200 -
+[ 2023-08-07 22:44:12,355 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:44:12] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:48:38,539 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:48:38] "GET /register HTTP/1.1" 200 -
+[ 2023-08-07 22:48:38,589 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:48:38] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:48:54,327 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:48:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+[ 2023-08-07 22:48:54,335 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:48:54] "GET /login HTTP/1.1" 200 -
+[ 2023-08-07 22:48:54,419 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:48:54] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:49:01,122 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2023-08-07 22:49:01,129 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:01] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-07 22:49:01,182 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:01] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:49:14,917 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:14] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-07 22:49:14,980 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:14] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:49:17,113 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:17] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-07 22:49:17,153 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:17] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:49:23,942 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:23] "GET / HTTP/1.1" 200 -
+[ 2023-08-07 22:49:24,102 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:24] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-07 22:49:28,003 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:28] "GET /register HTTP/1.1" 200 -
+[ 2023-08-07 22:49:28,052 ] 225 werkzeug - INFO - 127.0.0.1 - - [07/Aug/2023 22:49:28] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
