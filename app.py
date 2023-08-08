@@ -14,6 +14,7 @@ app = application
 #configuring the database
 app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
+app.config['DATABASE_URL']=10000
 
 db = SQLAlchemy(app)
 
