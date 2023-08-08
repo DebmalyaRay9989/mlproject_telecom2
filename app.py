@@ -13,7 +13,7 @@ application = Flask(__name__)
 app = application
 
 #configuring the database
-app.config['SQLALCHEMY_DATABASE_URI']= 'postgres://mltelecom:ggtDwvWnajIQw4VDNTaJwBbY02LXUVIF@dpg-cj946sqvvtos739f05j0-a.oregon-postgres.render.com/mltelecom'
+app.config['SQLALCHEMY_DATABASE_URI']= 'postgresql://mltelecom:ggtDwvWnajIQw4VDNTaJwBbY02LXUVIF@dpg-cj946sqvvtos739f05j0-a.oregon-postgres.render.com/mltelecom'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
 db = SQLAlchemy(app)
