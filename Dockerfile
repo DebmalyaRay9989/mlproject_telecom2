@@ -2,7 +2,7 @@
 FROM python:3.8
 
 # Work directory
-WORKDIR /app
+WORKDIR /mlproject_telecom2
 
 # Copy requirements and install dependencies
 COPY requirements.txt requirements.txt
