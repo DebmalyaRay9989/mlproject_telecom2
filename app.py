@@ -8,6 +8,8 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
+TEST_DB = "database.db"
+
 application = Flask(__name__)
 app = application
 
@@ -83,11 +85,11 @@ def predict_datapoint():
         #return render_template('home.html', results = results[0])
         return render_template('predict.html', results = float(results[0]))
 
-
 @app.route('/logout')
 def logout():
-    session.pop('user')
-    return redirect('/login')
+	session.pop('uname', None)
+	return redirect('/')
+
 
 if __name__ == "__main__":
     db.create_all()
