@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 wheel
 dill
+psycopg2
 flask
 flask_sqlalchemy
 klib
