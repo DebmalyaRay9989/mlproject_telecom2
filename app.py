@@ -8,13 +8,12 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
-TEST_DB = "database.db"
 
 application = Flask(__name__)
 app = application
 
 #configuring the database
-app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///database.db'
+app.config['SQLALCHEMY_DATABASE_URI']= 'postgres://mltelecom:ggtDwvWnajIQw4VDNTaJwBbY02LXUVIF@dpg-cj946sqvvtos739f05j0-a.oregon-postgres.render.com/mltelecom'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
 db = SQLAlchemy(app)
